@@ -129,7 +129,13 @@ class FFC(Module):
                 neg_loss = 0
             loss = cls_loss + neg_loss
             return loss
-
+    @torch.no_grad()
+    def _momentum_update_gallery(self):
+        """
+        Momentum update of the key encoder
+        """
+        for param_p, param_g in zip(self.probe_net.parameters(), self.gallery_net.parameters()):
+            param_g.data = param_g.data * self.m + param_p.data * (1. - self.m)
 
     def forward_impl(self, p_data, g_data, probe_label, gallery_label):
         p = self.probe_net(p_data)
