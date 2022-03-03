@@ -1,10 +1,10 @@
-# Fast Face Classification (F²C)—— An Efficient Training Approach for Very Large Scale Face Recognition
+# Fast Face Classification (F²C)—— An Efficient Training Approach for Very Large Scale Face Recognition (CVPR2022)
 
 Training on ultra-large-scale datasets is time-consuming and takes up a lot of hardware resource. Therefore so we design a dul-data loaders and dynamic class pool to deal with large-scale face classification.
 
 ***Pipeline***
 
-![Arch](source/pipe.jpg)
+![Arch](source/pipeline.png)
 ### Preparation
 As FFC contains LRU module, so you may use lru_python_impl.py or instead 
 compile the code under lru_c directory. 
