@@ -1,5 +1,11 @@
 # Fast Face Classification (F²C)—— An Efficient Training Approach for Very Large Scale Face Recognition (CVPR2022)
-
+                          Kai Wang*, Shuo Wang*, Panpan Zhang, Zhipeng Zhou, Zheng Zhu, Xiaobo Wang, Xiaojiang Peng, 
+						   Baigui Sun, Hao Li
+							 Yang You
+                  National University of Singapore, Alibaba DAMO Academy, Tsinghua University, Institute of Automation, Chinese Academy of Sciences, Shenzhen Technology University
+			        Kai Wang and Shuo Wang are equally-contributted authors
+[Paper](https://arxiv.org/pdf/2105.10375.pdf])
+***Abstract***
 Training on ultra-large-scale datasets is time-consuming and takes up a lot of hardware resource. Therefore so we design a dul-data loaders and dynamic class pool to deal with large-scale face classification.
 
 ***Pipeline***
