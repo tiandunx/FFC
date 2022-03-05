@@ -71,6 +71,16 @@ The difference between r50 and ir50 is that r50 requires 224 × 224 images as in
 ### Evaluation
 We provide the whole test script under evaluation_code directory. Each script requires the directory to the images and test pair files. 
 
+### Citing FFC
+```
+@inproceedings{FFC2022,
+  title={An Efficient Training Approach for Very Large Scale Face Recognition},
+  author={Kai Wang, Shuo Wang, Panpan Zhang, Zhipeng Zhou, Zheng Zhu, Xiaobo Wang, Xiaojiang Peng, Baigui Sun, Hao Li and Yang You},
+  booktitle={CVPR},
+  year={2022}
+}
+```
+
 ***__Tips__***
 
 Code in ```evaluation_code/test_megaface.py``` is much ***faster*** than official version. It's also applicable to extremely large-scale testing.
