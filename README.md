@@ -4,9 +4,8 @@
 							 Yang You
                   National University of Singapore, Alibaba DAMO Academy, Tsinghua University, Institute of Automation, Chinese Academy of Sciences, Shenzhen Technology University
 			        Kai Wang and Shuo Wang are equally-contributted authors
-[Paper](https://arxiv.org/pdf/2105.10375.pdf])
 ***Abstract***
-Training on ultra-large-scale datasets is time-consuming and takes up a lot of hardware resource. Therefore so we design a dul-data loaders and dynamic class pool to deal with large-scale face classification.
+Training on ultra-large-scale datasets is time-consuming and takes up a lot of hardware resource. Therefore so we design a dul-data loaders and dynamic class pool to deal with large-scale face classification. For more details, please refer to our [paper](https://arxiv.org/pdf/2105.10375.pdf)
 
 ***Pipeline***
 
