@@ -90,7 +90,7 @@ class LRU:
 
     def restore(self, kvs):
         assert len(kvs) <= self.capacity
-        assert self.cur_idx = 0
+        assert self.cur_idx == 0
         cur_node = self.__head
         for kv in kvs:
             assert kv[0] not in self.cache
