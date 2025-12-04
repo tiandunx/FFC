@@ -72,6 +72,7 @@ The difference between r50 and ir50 is that r50 requires 224 × 224 images as in
 We provide the whole test script under evaluation_code directory. Each script requires the directory to the images and test pair files. 
 
 ### Citing FFC
+If you use this code in your research, please cite:
 ```
 @inproceedings{FFC2022,
   title={An Efficient Training Approach for Very Large Scale Face Recognition},
